@@ -354,10 +354,12 @@ Para refatorar e otimizar `prompts/bug_to_user_story_v2.yml`, as seguintes técn
 
 ## Resultados Finais
 
-- **Link Público LangSmith**: [INSERIR LINK PÚBLICO DO SEU DASHBOARD LANGSMITH AQUI]
+- **Link Público LangSmith**: https://smith.langchain.com/prompts?organizationId=dcf77233-8c54-42d1-845a-248fef9aa9ea
 
 **Screenshots das Validações**: 
-*(Adicione as imagens da execução via LangSmith aqui mostrando as notas ≥ 0.9 e o tracing detalhado)*
+![Métricas Aprovadas CLI](images/img1.png)
+![LangSmith Runs](images/img2.png)
+![Tracing Detalhado](images/img3.png)
 
 ### Tabela Comparativa
 
