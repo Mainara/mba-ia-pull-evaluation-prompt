@@ -202,14 +202,6 @@ def evaluate_prompt(
         for i, example in enumerate(examples, 1):
             result = evaluate_prompt_on_example(prompt_template, example, llm)
 
-            if i in {2, 5, 9, 15}:
-                print(f"\n{'=' * 50}")
-                print(f"EXEMPLO {i} | BUG: {result['question']}")
-                print(f"--- GERADO ---")
-                print(result["answer"])
-                print(f"--- REFERÊNCIA ---")
-                print(result["reference"])
-                print(f"{'=' * 50}\n")
 
             if result["answer"]:
                 f1 = evaluate_f1_score(result["question"], result["answer"], result["reference"])
